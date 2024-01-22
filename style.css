@@ -1,0 +1,360 @@
+
+body{
+    width: 80%;
+    margin: auto;
+}
+.nav-title{
+    color: #FF5400;
+}
+nav h1 i{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+
+}
+nav > ul > li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #424247;
+}
+.list-1{
+    color: #FF5400;
+}
+/* banner section start here */
+.banner-container{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    filter: brightness(100%);
+    height: 300px;
+    margin:0 auto;
+    padding-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    
+    
+}
+.banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+.banner-discription{
+    margin-top:20px;
+    width: 500px;
+    color: #FFF;
+    margin: auto ;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.banner-button{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;    
+    border-radius: 8px;
+    background: #ffffff77;
+    margin-top: 10px;
+}
+.banner-button button{
+    padding: 5px;
+    border-radius: 8px;
+    background: #FFF; 
+}
+.banner-button .find-banner{
+    background-color: #FF5400;
+}
+/* main section start */
+.main-section{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.btn-mainpart{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* destination part start here */
+.destination-head-part{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+
+}
+
+.child-img-1{
+    display: grid;
+    
+    
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.child-img-1 img{
+    width: 100%;
+}
+
+.child-img-2{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns:auto auto auto;
+    gap: 10px;
+
+}
+.child-img-2 img{
+    width: 100%;
+    height: 90%;
+}
+
+
+.child-img-3{
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 10px;
+
+}
+.child-img-3 img{
+    width: 100%;
+    height: 90%;
+    
+}
+
+.country-1{
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+    font-size: 25px;
+    color: #FFF;
+}
+.parent-div-1 {
+    left: 100px;
+
+}
+/* chice section */
+.choice-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.choice-title{
+    color: #131318;
+    font-size: 22px;
+}
+.choice-title>p{
+    width: 500px;
+    margin: auto;
+    font-size: 15px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.service-container{
+    display:flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services-part-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+.services-part-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+}
+.services-part-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+}
+/* slatter part */
+.newslater{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+.slatter-container{
+    width: 400px;
+    border:1px solid orangered;
+    height: 100%;
+    
+    background: #FFF;
+    border-radius: 10px;
+    padding: 20px 20px 20px 30px;
+}
+.slatter-container hr{
+    background: rgba(68, 68, 80, 0.1);
+}
+.slatter-container input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(74, 74, 77, 0.05);
+}
+.btn-slatter{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    width: 95%;
+    padding: 8px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    border: none;
+    font-weight: 800;
+}
+.img-div-slatter img{
+    border-radius: 10px;
+    height: 65%;
+    width: 100%;
+    
+}
+.discount-part{
+    border-radius: 16px;
+    background: #FF5400;
+    width: 300px;
+    height: 80px;
+    position:relative;
+    bottom: 145px;
+    left: 310px;
+    transform: rotate(-19.628deg);
+    text-align: center;
+    color: #FFF;
+}
+.discount-part p{
+    padding-top: 5px;
+}
+.discount-part h2{
+    margin-top:-10px;
+}
+/* footer part start here */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    
+    height: 400px;
+    margin-left: -120px;
+}
+footer h1 i{
+    color: #FF5400;
+}
+.footer-container{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.footer-container hr{
+    background: rgba(70, 70, 83, 0.014);
+}
+.footer-container p{
+    color: #5A5A5D;
+}
+/* responsive part */
+@media screen and (max-width:600px) {
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        
+        
+
+    }
+    nav > ul >li{
+        font-size: 26px;
+        margin-top: 20px;
+
+    }
+    .banner-button{
+        flex-direction: column;
+        
+    }
+    .banner-button button{
+        width:100%;
+        padding: 10px;
+        
+    }
+    .banner-container{
+        padding-top: -20px;
+        
+    }
+    .container{
+        margin-top: -100px;
+    }
+    .main-section{
+        flex-direction: column;
+
+    }
+    .child-img-1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .child-img-2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .child-img-3{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service-container{
+        flex-direction: column;
+    }
+    .newslater{
+        flex-direction: column;
+
+    }
+    .discount-part{
+        left: 150px;
+    }
+    .footer{
+       
+        text-align: center;
+       
+    }
+    .img-div-slatter img{
+        width: 100%;
+    }
+    .choice-title>p{
+        width: 100%;
+    }
+    .services-part-3{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .img-div-slatter{
+        width: 100%;
+    }
+    .destination-head-part{
+        width: 100%;
+    }
+    .discount-part{
+        width: 50%;
+        position: relative;
+    }
+    .footer-container{
+        width:100%;
+    }
+    
+}
